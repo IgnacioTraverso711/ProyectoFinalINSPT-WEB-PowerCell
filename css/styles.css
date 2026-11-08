@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding-bottom: 60px; 
-    background-image: url(/Imagenes/Fondo.png);
+    background-image: url(Imagenes/Fondo.png);
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
@@ -33,7 +33,7 @@ body {
 }
 
 .texto-barra{
-    background-color: #ffce00;
+    background-color: orange;
     display: inline-block;
     text-decoration: none; 
     color: white;   
