@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>PowerCellStore</title>
+</head>
+<body>
+    <header>
+        <nav class="barra">
+            <h1 class="logo">Power</h1>
+            <h1 class="logo2">Cell</h1>
+            <ul class="enlaces-barra">
+                <li class="elemento-barra"><a class="texto-barra" href="index.html">Inicio</a></li>
+                <li class="elemento-barra"><a class="texto-barra" href="contactos.html">Contacto</a></li>
+                <li class="elemento-barra"><a class="texto-barra" href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                  <li class="elemento-barra dropdown">
+                    <a class="texto-barra" href="#">Categorías ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Auriculares.html">Auriculares</a></li>
+                        <li><a href="Cargadores.html">Cargadores</a></li>
+                        <li><a href="Cables.html">Cables</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contenedor-contacto">
+        <h2 class="titulo-contacto">Comunicate con Nosotros</h2>
+        <form class="formulario-contacto" action="enviado.html" method="get">
+            <div class="grupo-input">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresá tu nombre" required>
+            </div>
+            <div class="grupo-input">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+            </div>
+            <div class="grupo-input">
+                <label for="asunto">Asunto</label>
+                <input type="text" id="asunto" name="asunto" placeholder="Motivo de tu consulta" required>
+            </div>
+            <div class="grupo-input">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu mensaje acá..." required></textarea>
+            </div>
+            <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+        </form>
+    </main>
+    <footer class="barra_abajo">
+        <div class="footer-contenido">
+        <p>&copy; 2026 PowerCell Store. Todos los derechos reservados.</p>
+        <div class="footer-info">
+        <span>📍 Av. Corrientes 1234, CABA</span>
+        <span>✉️ <a href="mailto:powercellstore@gmail.com">powercellstore@gmail.com</a></span>
+        <span>📸 Seguinos en <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></span>
+        </div>
+  </div>
+</footer>
+
+</body>
+</html>
